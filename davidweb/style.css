@@ -148,8 +148,8 @@ a:hover {
 	margin-top: 2em;
 	 position: relative;
 	 -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-	 font-size:64px;
-	 font-weight: 900;
+	 font-size:80px;
+	 /* font-weight: 900; */
    }
    .waviy span {
 	 font-family: 'Raleway', sans-serif;
@@ -280,7 +280,7 @@ a:hover {
 		height: auto;
 		padding:20px;
 		top:auto;
-		bottom:20px;
+		bottom:0;
 		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 32%);
 	}
 	.text-wrap h2{
@@ -315,6 +315,10 @@ a:hover {
 	.more-btn.active .icon{
 		background: url(assets/) no-repeat center;
 		background-size: contain;
+	}
+
+	.waviy{
+		font-size:40px;
 	}
 
 }
