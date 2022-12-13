@@ -1,0 +1,426 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+    background-color: white;
+    line-height: 1.5;
+}
+
+.container {
+	width: 100%;
+	max-width: 1480px;
+	padding: 0 20px;
+	margin: auto;
+	position: relative;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 3;
+}
+
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.main-navigation {
+	float: right;
+}
+
+.main-navigation a {
+	color: black;
+	margin-left: 20px;
+}
+
+.main-navigation a.active {
+	font-weight: bold;
+	border-bottom: 2px solid pink;
+}
+
+.btn {
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	padding: 12px 20px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: 100%;	
+}
+
+/* a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:black;
+} */
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+section {
+    padding: 20px 0;
+}
+
+.title {
+    margin-top:1em;
+    font-size: 5rem;
+    text-align: center;
+    /* padding-bottom: 50px;	 */
+	
+}
+
+.about-area {
+	height: auto;
+	position: relative;
+	color: black;
+}
+
+.about-area > .picture {
+	display: block;
+	text-align: center;
+	/* padding: 20px; */
+	padding: 5em;
+	float: left;
+}
+
+
+.waviy {
+	position: relative;
+	-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+	font-size: 60px;
+	font-weight: 500;
+  }
+  .waviy span {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	display: inline-block;
+	color: black;
+	text-transform: uppercase;
+	animation: waviy 3s infinite;
+	animation-delay: calc(.1s * var(--i));
+	
+  }
+
+/* footer */
+
+
+.footer-distributed{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 55px 50px;
+	font-family: 'Raleway', sans-serif;
+  }
+  
+  .footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Raleway', sans-serif;
+  }
+
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+	width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+	display: block;
+	color:  black;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .footer-distributed .footer-icons{
+	margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+    font-size: 2em;
+	color: black;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+	.footer-distributed{
+	  font: bold 14px sans-serif;
+	}
+  
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+	  display: block;
+	  width: 100%;
+	  margin-bottom: 10px;
+	  text-align: center;
+	}
+  
+	.footer-distributed .footer-center i{
+	  margin-left: 0;
+	}
+  
+  }
+  
+  /* Media Queries */
+  
+ 
+
+  
+  
+
+  @keyframes waviy {
+	0%,40%,100% {
+	  transform: translateY(0)
+	}
+	20% {
+	  transform: translateY(-20px)
+	}
+  }
+
+
+@media (min-width: 992px) {
+	.about-area > .picture {
+		width: calc(40% - 40px);
+		display: inline-block;
+	}
+}
+
+.about-area > .picture > img {
+	max-width: 600px;
+	max-height: 760px;
+	opacity: .2;
+	/* filter: blur(5px);
+	-webkit-filter: blur(5px); */
+
+
+}
+
+
+.about-area > .picture > .name {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: .5rem;
+    font-family: 'Raleway', sans-serif;
+	color:black;
+}
+
+.about-area > .picture > .description {
+	font-size: 14px;
+	
+}
+
+.about-area > .text {
+
+	display: block;
+	padding: 1rem;
+	
+}
+
+@media (min-width: 992px) {
+	.about-area > .text {
+		width: calc(60% - 100px);
+		display: inline-block;
+		padding: 0 50px;
+	}
+}
+
+.about-area > .text * {
+	font-size: 18px;
+}
+
+.about-area > .text > .intro {
+	padding: 80px 1em;
+	margin-top:5em;
+    font-family: 'Raleway', sans-serif;
+	color:black;
+	text-align: left;
+	font-size:1em;
+}
+
+.about-area > .text > ul {
+	padding: 20px 0;
+
+}
+
+.about-area > .text > ul > li {
+	height: 40px;
+}
+
+.about-area > .text > ul > li > .info {
+	color:black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-area > .text > ul > li > .info > i {
+	/* color: #0D0D0D; */
+	color: black;
+
+}
+
+.about-area > .text > .sns {
+	text-align: right;
+	
+}
+
+@media (min-width: 992px) {
+	.about-area > .text > .sns {
+		text-align: left;
+	}
+}
+
+.about-area > .text > .sns > a {
+	width: 50px;
+	line-height: 50px;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.about-area > .text > .sns > a:hover {
+	/* background-image: linear-gradient(to right, #8C857D, #232240); */
+	opacity: .5;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+	header{
+		padding: 0;
+		height: 56px;
+	}
+	header h1{
+		height: 56px;
+	}
+	header h1 img{
+		top:20px;
+		height: 16px;
+	}
+	.main-navigation{
+		position: fixed;
+		top:0;
+		right:0;
+		padding:80px 20px;
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateX(100%);
+		transition: 0.3s;
+	}
+	.main-navigation.active{
+		opacity: 1;
+		visibility: visible;
+		transform: translateX(0);
+		transition: 0.3s;
+	}
+	.main-navigation a{
+		display: block;
+		margin:auto;
+		margin-bottom:8px;
+		padding:12px;
+
+	}
+	.main-navigation a.btn{
+		text-align: center;
+	}
+	.dbrick-wrap{
+		top:5vw;
+		left:-50%;
+		width:200%;
+	}
+	.text-wrap{
+		width:100%;
+		height: auto;
+		padding:20px;
+		top:auto;
+		bottom:20px;
+		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 32%);
+	}
+	.text-wrap h2{
+		font-size: 36px;
+	}
+	.text-wrap h3{
+		font-size: 20px;
+	}
+	.text-wrap p {
+		font-size: 14;
+	}
+
+	.more-btn{
+		display: block;
+		position: absolute;
+		right:12px;
+		top:8px;
+		width:40px;
+		height: 40px;
+		border-radius: 8px;
+		border:none;
+		background-color: transparent;
+
+	}
+	.more-btn .icon{
+		display: block;
+		width:24px;
+		height: 24px;
+		margin: 0 auto;
+		background: url(../assets/icon-menu.svg) no-repeat center;
+		background-size: contain;
+
+	}
+	.more-btn.active .icon{
+		background: url(../assets/icon-close.svg) no-repeat center;
+		background-size: contain;
+ 
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
