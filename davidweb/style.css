@@ -12,8 +12,10 @@ body {
 	width: 100%;
 	max-width: 1480px;
 	padding: 0 20px;
+	/* top:0; */
 	margin: auto;
 	position: relative;
+
 }
 
 header {
@@ -58,6 +60,7 @@ a:hover {
 
 .main-navigation {
 	float: right;
+
 }
 
 .main-navigation a {
@@ -77,7 +80,8 @@ a:hover {
 	padding: 12px 20px;
 	border-radius: 8px;
 	border: 1px solid black;
-	margin:2em;
+   
+
 	/* background-color: white; */
 }
 
@@ -121,6 +125,8 @@ a:hover {
 
 .ghost-btn {
 	background-color: transparent;
+	margin-left:2em;
+
 	/* border: 1px solid black; */
 }
 
@@ -140,7 +146,7 @@ a:hover {
 	font-size:60px;
 	line-height: 1.25;
 	font-weight: lighter;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 
 .waviy {
@@ -174,7 +180,7 @@ a:hover {
 .text-wrap h3 {
 	color: black;
 	font-size: 24px;
-	line-height: 1.25;
+	line-height:.5;
 	margin-bottom: 20px;
 }
 
@@ -187,8 +193,10 @@ a:hover {
 
 .tag{
 	font-size:12px;
+	opacity: .5;
 	margin-bottom:20px;
 }
+
 
 .hero-bg {
 	position: relative;
@@ -200,6 +208,8 @@ a:hover {
 
 .hero-bg .container {
 	height: 100%;
+
+
 }
 
 
@@ -208,6 +218,7 @@ a:hover {
 	left: 200px;
 	width: 1600px;
 	height: 100vh;
+
 	z-index: 1;
 }
 
@@ -222,7 +233,7 @@ a:hover {
 .more-btn {
 
 	display: none;
-
+	
 }
 
 
@@ -242,6 +253,7 @@ a:hover {
 		height: 16px;
 	}
 	.main-navigation{
+		
 		position: fixed;
 		top:0;
 		right:0;
@@ -276,6 +288,7 @@ a:hover {
 		width:200%;
 	}
 	.text-wrap{
+		/* margin:0; */
 		width:100%;
 		height: auto;
 		padding:20px;
@@ -283,15 +296,26 @@ a:hover {
 		bottom:0;
 		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 32%);
 	}
+
 	.text-wrap h2{
 		font-size: 36px;
 	}
-	.text-wrap h3{
+	/* .text-wrap h3{
 		font-size: 20px;
+	} */
+	.text-wrap p{
+		font-size:12px;
+		line-height:1.2;
 	}
-	.text-wrap p {
-		font-size: 14;
+	.text-wrap .tag {
+		font-size: 10px;
 	}
+
+	.btn-wrap{
+		text-align: center;
+	}
+
+	
 
 	.more-btn{
 		display: block;
