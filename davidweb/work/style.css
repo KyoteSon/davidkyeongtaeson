@@ -5,9 +5,9 @@
 body {
    margin: 0;
    padding: 0;
-
    background-color: white;
    font-family: 'Raleway', sans-serif;
+   line-height: 1.5;
 }
 
 .container {
@@ -141,7 +141,8 @@ a:hover {
    right: 30px;
    bottom: 30px;
    left: 30px;
-   /* opacity: .5; */
+
+   background-color: white;
 }
 
 .image-gallery .image-box .details {
@@ -149,8 +150,6 @@ a:hover {
 }
 
 .image-gallery .image-box .details .title {
-   background-color: white;
-   border: 1px solid white;
    border-radius: 8px;
    margin-bottom: 8px;
    font-size: 24px;
