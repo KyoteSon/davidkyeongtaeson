@@ -31,6 +31,7 @@ header {
 a {
 	font-size: 16px;
 	text-decoration: none;
+	opacity: 1;
 }
 
 a:hover {
@@ -121,6 +122,8 @@ a:hover {
    transform: scale(1.1);
 }
 
+
+
 .image-gallery .image-box .overlay {
    position: absolute;
    top: 0;
@@ -137,16 +140,17 @@ a:hover {
 }
 
 .image-gallery .image-box:hover .overlay {
-   top: 30px;
-   right: 30px;
-   bottom: 30px;
-   left: 30px;
-
+   top: 20px;
+   right: 20px;
+   bottom: 20px;
+   left: 20px;
    background-color: white;
+
 }
 
 .image-gallery .image-box .details {
    text-align: center;
+  
 }
 
 .image-gallery .image-box .details .title {
@@ -189,6 +193,7 @@ a:hover {
 .image-gallery .image-box .details .category a {
    color: #222222;
    text-decoration: none;
+
 }
 
 @keyframes waviy {

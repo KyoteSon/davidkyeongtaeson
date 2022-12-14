@@ -46,6 +46,7 @@ a:hover {
 }
 
 
+
 .main-navigation {
 	float: right;
 }
@@ -116,7 +117,7 @@ section {
 .about-area > .picture {
 	display: block;
 	text-align: center;
-	/* padding: 20px; */
+	padding: 20px;
 	padding: 5em;
 	float: left;
 }
@@ -245,7 +246,7 @@ section {
 .about-area > .picture > img {
 	max-width: 600px;
 	max-height: 760px;
-	opacity: .2;
+	opacity: .1;
 	/* filter: blur(5px);
 	-webkit-filter: blur(5px); */
 
@@ -345,6 +346,7 @@ section {
 
 
 
+
 @media screen and (max-width: 768px) {
 
 	header{
@@ -409,6 +411,10 @@ section {
 	.text-wrap p {
 		font-size: 14;
 	}
+
+ .title {
+		margin-top:.5em;	
+	} 
 
 	.more-btn{
 		display: block;

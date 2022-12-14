@@ -195,6 +195,7 @@ a:hover {
 .tag{
 	font-size:12px;
 	opacity: .5;
+	padding:.5em;
 	margin-bottom:20px;
 }
 
@@ -296,7 +297,7 @@ a:hover {
 	}
 
 	.text-wrap h2{
-		font-size: 30px;
+		font-size: 27px;
 	}
 	/* .text-wrap h3{
 		font-size: 20px;
@@ -309,6 +310,7 @@ a:hover {
 		font-size: 10px;
 	}
 	.btn-wrap{
+		display:none;
 		text-align: center;
 	}
 
@@ -337,6 +339,7 @@ a:hover {
 	}
 
 	.waviy{
+		text-align: center;
 		font-size:45px;
 	}
 
