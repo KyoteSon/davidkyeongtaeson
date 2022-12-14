@@ -12,6 +12,10 @@ body {
     line-height: 1.5;
 }
 
+.name{
+	font-size:1em;
+}
+
 .container {
 	width: 100%;
 	max-width: 1480px;
@@ -431,6 +435,11 @@ section {
 		background-size: contain;
  
 	}
+
+	.waviy{
+		font-size:45px;
+	}
+
 
 }
 
